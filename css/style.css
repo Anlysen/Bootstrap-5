@@ -5,8 +5,6 @@
     --color2: #52339a;
 }
 
-header,
-footer,
 section {
     padding: 100px 0;
 }
@@ -84,7 +82,7 @@ header, footer {
 
 /* О курсе */
 
-.about, .shedule, .lerning {
+.about, .shedule, .author, .buy {
     background-color: #eee;
 }
 
@@ -107,10 +105,20 @@ header, footer {
 .line {
     width: 100px;
     height: 3px;
-    background-color: var(--color1);
     margin: 15px auto 30px;
 }
 
+
+/* Отзыв */
+
+.rounded {
+    border-radius: 50% !important;
+    border: 3px solid var(--color1);
+}
+
+.bg-2 {
+    background-color: var(--color2);
+}
 
 /* Для кого курс */
 
@@ -138,6 +146,33 @@ header, footer {
 .lerning h5 {
     padding: 25px;
     border: 3px solid var(--color1);
+}
+
+
+/* Об авторе */
+
+.author {
+    padding-bottom: 0;
+}
+
+.itd_img {
+    max-width: 260px;
+}
+
+
+/* Подвал */
+
+footer {
+    padding: 30px 0;
+}
+
+footer .btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 
